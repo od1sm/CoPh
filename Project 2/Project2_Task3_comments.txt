@@ -1,0 +1,9 @@
+w1,w2,w3 functions appear to be identical to those provided by the analytical solution.
+
+The error is periodic over time with constant amplitude, but it's worse when compared to the analytical solution and RK4 method.
+However, if we had a longer final time tmax, the results could change.
+To calculate a tmax at which the error of RK4 method is greater, we have to assume that the error from RK4 method increases at a rate of 10^(-1) for every t=100. To reach the levels of splitting method it would take 5*t, with an error of 10^(-4).
+
+It's also worth mentioning that because our functions are periodic, their local maxima and minima occur at the same time. It appears to have an effect on our error as well.
+w2 has its critical points (either maxima or minima) happen at the same time with w3 minima. At the same time, the error appears to be the local maximum.
+w1 has its critical points (either maxima or minima) happen at the same time with w3 maxima. At the same time, the error appears to be the local minimum.

@@ -1,0 +1,7 @@
+Jacobi' s solution is an analytical solution to Euler' s equations, which has no error.
+
+The numerical implementation of the analytical solution, particularly the Jacobi elliptical functions, however, manifests some
+error due to the computer.
+Essentially, this is due to the fact that digital computers have magnitude and precision limits in their ability to represent numbers.
+Furthermore, Mathematica functions are really optimized to evaluate Jacobi' s elliptic functions, so our error appears to be a roundoff error.
+As a result, our error is caused by our machine' s precision error which is fixed to 10^(-16).

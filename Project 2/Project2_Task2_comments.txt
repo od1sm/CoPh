@@ -1,0 +1,8 @@
+w1, w2, w3 functions appear to be identical to those provided by the analytical solution.
+
+As we' re getting further away from our starting point the error keeps getting higher. That could be happening because the error at nth time step is n times the local truncation error of the Runge - Kutta of 4 th order.
+
+It' s also worth mentioning that because our functions are periodic, their local maxima and minima occur at the same time. It appears to have an effect on our error as well.
+w2 has its critical points (either maxima or minima) happen at the same time with w3 minima. At the same time, the error appears to be the local maximum.
+w1 has its critical points (either maxima or minima) happen at the same time with w3 maxima. At the same time, the error appears to be the local minimum.
+Finally, this method has a larger error than that of the analytical solution, which is to be expected.
