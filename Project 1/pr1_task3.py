@@ -60,8 +60,7 @@ for b in tqdm(range(6)):
 #          Setting ylabel, saving and showing our plot                  #
 #########################################################################
 plots_bsl[0].ylabel = 'J_n(x)'
-savim('pr1_task3', f'img_{knumber}')
-# plots_bsl[0].save(f'pr1_task3/img_{knumber}')
+plots_bsl[0].save(f'pr1_task3/img_{knumber}')
 # plots_bsl[0].show()
 
 ##################################################################################
